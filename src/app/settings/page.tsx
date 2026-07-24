@@ -48,7 +48,7 @@ function BackupAndRestore() {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `lifeos_backup_${new Date().toISOString().split('T')[0]}.json`;
+            a.download = `DayFlow_backup_${new Date().toISOString().split('T')[0]}.json`;
             a.click();
             URL.revokeObjectURL(url);
             toast({ title: 'Success', description: 'Your data has been downloaded.' });

@@ -6,7 +6,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 self.addEventListener('push', (event) => {
   const data = event.data?.json() ?? {};
-  const title = data.title || 'LifeOS';
+  const title = data.title || 'DayFlow';
   const options = {
     body: data.body || 'You have a new notification.',
     // You can add icons and badges here once you have the assets

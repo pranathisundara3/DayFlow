@@ -402,7 +402,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
     <div className="flex flex-col min-h-screen">
       <ThemeController />
       <header className="sticky top-0 z-30 flex h-14 shrink-0 items-center gap-4 border-b bg-background/95 px-4 sm:px-6 backdrop-blur-sm">
-        <h1 className="font-headline text-lg font-bold text-primary">LifeOS</h1>
+        <h1 className="font-headline text-lg font-bold text-primary">DayFlow</h1>
         <div className="flex-1" />
         <NotificationBell />
         <HeaderCalendar />

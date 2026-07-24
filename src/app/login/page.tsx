@@ -151,7 +151,7 @@ export default function LoginPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-background p-4">
       <Card className="w-full max-w-sm">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl font-headline">Welcome to LifeOS</CardTitle>
+          <CardTitle className="text-2xl font-headline">Welcome to DayFlow</CardTitle>
           <CardDescription>
             Sign in, create an account, or continue as a guest.
           </CardDescription>

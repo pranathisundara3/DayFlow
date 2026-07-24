@@ -1,6 +1,6 @@
 {
-  "name": "LifeOS",
-  "short_name": "LifeOS",
+  "name": "DayFlow",
+  "short_name": "DayFlow",
   "description": "Manage your day, expenses, habits, and notes all in one place.",
   "start_url": "/",
   "display": "standalone",

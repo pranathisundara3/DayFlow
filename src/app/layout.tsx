@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { AuthProvider } from '@/hooks/use-auth';
 
 export const metadata: Metadata = {
-  title: 'LifeOS',
+  title: 'DayFlow',
   description: 'Manage your day, expenses, habits, and notes all in one place.',
   manifest: '/manifest.json',
 };

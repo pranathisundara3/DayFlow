@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
     
     const payload = JSON.stringify({
-      title: 'LifeOS Test Notification',
+      title: 'DayFlow Test Notification',
       body: 'If you see this, push notifications are working!',
     });
 
